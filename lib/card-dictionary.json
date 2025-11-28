@@ -1,0 +1,2180 @@
+[
+  {
+    "id": "13",
+    "labels": [
+      "Altar"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Altar",
+      "vietnameseMeaning": "Bàn thờ",
+      "pronunciation": "/ˈɔːltər/",
+      "phonetic": "AWL-ter",
+      "exampleSentences": [
+        "An altar is a special table.",
+        "People put flowers and candles on the altar.",
+        "Families pray or show respect at the altar."
+      ],
+      "category": "Religious Item",
+      "cardImages": [
+        "images/cards/altar.png"
+      ]
+    }
+  },
+  {
+    "id": "12",
+    "labels": [
+      "Box"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Box",
+      "vietnameseMeaning": "Hộp, thùng",
+      "pronunciation": "/bɒks/",
+      "phonetic": "boks",
+      "exampleSentences": [
+        "I put my toys in the box.",
+        "The cat likes to play with a cardboard box.",
+        "This is a big red box."
+      ],
+      "category": "Container",
+      "cardImages": [
+        "images/cards/box.png"
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "labels": [
+      "Air Fryer"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Air Fryer",
+      "vietnameseMeaning": "Nồi chiên không dầu",
+      "pronunciation": "/ˈɛər ˌfraɪər/",
+      "phonetic": "AIR FRY-er",
+      "exampleSentences": [
+        "Mom uses the air fryer to make crispy fries.",
+        "The air fryer helps us cook food without much oil.",
+        "I like chicken nuggets cooked in the air fryer."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/air-fryer.png"
+      ]
+    }
+  },
+  {
+    "id": "1",
+    "labels": [
+      "Bed"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Bed",
+      "vietnameseMeaning": "Giường (nơi để ngủ)",
+      "pronunciation": "/bɛd/",
+      "phonetic": "bed",
+      "exampleSentences": [
+        "I sleep in my bed every night.",
+        "The bed is soft and comfortable.",
+        "My teddy bear sits on my bed."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/bed.png"
+      ]
+    }
+  },
+  {
+    "id": "11",
+    "labels": [
+      "Air Purifier"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Air Purifier",
+      "vietnameseMeaning": "Máy lọc không khí",
+      "pronunciation": "/ˈɛər ˈpjʊrɪfaɪər/",
+      "phonetic": "AIR PUR-i-fy-er",
+      "exampleSentences": [
+        "An air purifier cleans the air in my room.",
+        "It helps me breathe fresh air every day.",
+        "My mom turns on the air purifier when we sleep."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/air-purifier.png"
+      ]
+    }
+  },
+  {
+    "id": "14",
+    "labels": [
+      "Basket"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Basket",
+      "vietnameseMeaning": "Cái giỏ, cái rổ",
+      "pronunciation": "/ˈbæskɪt/",
+      "phonetic": "BASS-kit",
+      "exampleSentences": [
+        "I put my toys in the basket.",
+        "The picnic basket has yummy food.",
+        "She carries a big basket for laundry."
+      ],
+      "category": "Container",
+      "cardImages": [
+        "images/cards/basket.png"
+      ]
+    }
+  },
+  {
+    "id": "17",
+    "labels": [
+      "Cake"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Cake",
+      "vietnameseMeaning": "Bánh ngọt",
+      "pronunciation": "/keɪk/",
+      "phonetic": "KAYK",
+      "exampleSentences": [
+        "I eat cake at a birthday party.",
+        "This chocolate cake is very yummy.",
+        "My mom bakes a fresh cake every Sunday."
+      ],
+      "category": "Food",
+      "cardImages": [
+        "images/cards/cake.png"
+      ]
+    }
+  },
+  {
+    "id": "16",
+    "labels": [
+      "Chair"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Chair",
+      "vietnameseMeaning": "Cái ghế",
+      "pronunciation": "/tʃɛər/",
+      "phonetic": "CHAIR",
+      "exampleSentences": [
+        "I sit on the chair.",
+        "The chair is red.",
+        "My cat sleeps on the soft chair."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/chair.png"
+      ]
+    }
+  },
+  {
+    "id": "15",
+    "labels": [
+      "Bunk Bed"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Bunk Bed",
+      "vietnameseMeaning": "Giường tầng",
+      "pronunciation": "/ˈbʌŋk bɛd/",
+      "phonetic": "BUNK bed",
+      "exampleSentences": [
+        "My sister sleeps on the top bunk.",
+        "A bunk bed has two beds, one above the other.",
+        "Children often share a room with a bunk bed."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/bunk-bed.png"
+      ]
+    }
+  },
+  {
+    "id": "18",
+    "labels": [
+      "Candy"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Candy",
+      "vietnameseMeaning": "Kẹo",
+      "pronunciation": "/ˈkændi/",
+      "phonetic": "KAN-dee",
+      "exampleSentences": [
+        "I like to eat candy.",
+        "The candy is very sweet.",
+        "My friend shares a candy with me."
+      ],
+      "category": "Food",
+      "cardImages": [
+        "images/cards/candy.png"
+      ]
+    }
+  },
+  {
+    "id": "19",
+    "labels": [
+      "Chicken"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Chicken",
+      "vietnameseMeaning": "Gà",
+      "pronunciation": "/ˈtʃɪkɪn/",
+      "phonetic": "CHIK-in",
+      "exampleSentences": [
+        "The chicken has feathers.",
+        "A chicken lays eggs.",
+        "We see the chicken on the farm."
+      ],
+      "category": "Animal",
+      "cardImages": [
+        "images/cards/chicken.png"
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "labels": [
+      "Blender, Blender"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Blender",
+      "vietnameseMeaning": "Máy xay sinh tố",
+      "pronunciation": "/ˈblendər/",
+      "phonetic": "BLEN-der",
+      "exampleSentences": [
+        "I use a blender to make a yummy smoothie.",
+        "The blender helps mix fruits and milk together.",
+        "My mom puts ice in the blender to crush it."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/blender.png"
+      ]
+    }
+  },
+  {
+    "id": "20",
+    "labels": [
+      "Cabinet"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Cabinet",
+      "vietnameseMeaning": "Tủ (có ngăn, thường dùng để đựng đồ)",
+      "pronunciation": "/ˈkæbɪnɪt/",
+      "phonetic": "KAB-in-it",
+      "exampleSentences": [
+        "Mom puts the dishes in the kitchen cabinet.",
+        "My books are neatly in the living room cabinet.",
+        "The small cabinet holds all my art supplies."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/cabinet.png"
+      ]
+    }
+  },
+  {
+    "id": "21",
+    "labels": [
+      "Crab"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Crab",
+      "vietnameseMeaning": "Con cua",
+      "pronunciation": "/kræb/",
+      "phonetic": "KRAB",
+      "exampleSentences": [
+        "A crab walks sideways on the sand.",
+        "It has two big claws to catch food.",
+        "Many crabs live in the ocean."
+      ],
+      "category": "Sea Animal",
+      "cardImages": [
+        "images/cards/crab.png"
+      ]
+    }
+  },
+  {
+    "id": "22",
+    "labels": [
+      "Coffee Maker"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Coffee Maker",
+      "vietnameseMeaning": "Máy pha cà phê",
+      "pronunciation": "/ˈkɒfi ˈmeɪkər/",
+      "phonetic": "KOF-ee MAY-ker",
+      "exampleSentences": [
+        "My mom uses the coffee maker every morning.",
+        "The coffee maker makes hot coffee for grown-ups.",
+        "It sits on the kitchen counter next to the toaster."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/coffee-maker.png"
+      ]
+    }
+  },
+  {
+    "id": "23",
+    "labels": [
+      "Coffee Bean"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Coffee Bean",
+      "vietnameseMeaning": "Hạt cà phê",
+      "pronunciation": "/ˈkɒfi biːn/",
+      "phonetic": "KOF-ee BEEN",
+      "exampleSentences": [
+        "A coffee bean is very small.",
+        "People grind coffee beans to make a drink.",
+        "Some coffee beans are brown, and some are green."
+      ],
+      "category": "Food Item",
+      "cardImages": [
+        "images/cards/coffee-bean.png"
+      ]
+    }
+  },
+  {
+    "id": "25",
+    "labels": [
+      "Desk"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Desk",
+      "vietnameseMeaning": "Bàn làm việc hoặc bàn học.",
+      "pronunciation": "/dɛsk/",
+      "phonetic": "DESK",
+      "exampleSentences": [
+        "I do my homework at my desk.",
+        "My desk has a lamp and some books.",
+        "The teacher sits at a big desk in front of the class."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/desk.png"
+      ]
+    }
+  },
+  {
+    "id": "27",
+    "labels": [
+      "Cooktop"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Cooktop",
+      "vietnameseMeaning": "Mặt bếp nấu",
+      "pronunciation": "/ˈkʊktɒp/",
+      "phonetic": "KOOK-top",
+      "exampleSentences": [
+        "The cooktop is flat and smooth.",
+        "Mom places a pot on the cooktop to cook soup.",
+        "We clean the cooktop after dinner every day."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/cooktop.png"
+      ]
+    }
+  },
+  {
+    "id": "26",
+    "labels": [
+      "Cup"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Cup",
+      "vietnameseMeaning": "Cái cốc, ly",
+      "pronunciation": "/kʌp/",
+      "phonetic": "KUP",
+      "exampleSentences": [
+        "I drink water from a cup.",
+        "This cup is for milk.",
+        "The red cup is on the table."
+      ],
+      "category": "Kitchenware",
+      "cardImages": [
+        "images/cards/cup.png"
+      ]
+    }
+  },
+  {
+    "id": "24",
+    "labels": [
+      "Clock"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Clock",
+      "vietnameseMeaning": "Đồng hồ",
+      "pronunciation": "/ˈklɒk/",
+      "phonetic": "KLOK",
+      "exampleSentences": [
+        "The clock shows us what time it is.",
+        "I have a small clock next to my bed.",
+        "Look! The big clock on the wall is ticking."
+      ],
+      "category": "Timepiece",
+      "cardImages": [
+        "images/cards/clock.png"
+      ]
+    }
+  },
+  {
+    "id": "28",
+    "labels": [
+      "Can"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Can",
+      "vietnameseMeaning": "Lon",
+      "pronunciation": "/kæn/",
+      "phonetic": "KAN",
+      "exampleSentences": [
+        "I drink juice from a small can.",
+        "Mom opens a can of beans for lunch.",
+        "We put the empty can in the recycling bin."
+      ],
+      "category": "Container",
+      "cardImages": [
+        "images/cards/can.png"
+      ]
+    }
+  },
+  {
+    "id": "30",
+    "labels": [
+      "Dessert"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Dessert",
+      "vietnameseMeaning": "Món tráng miệng",
+      "pronunciation": "/dɪˈzɜːrt/",
+      "phonetic": "dih-ZERT",
+      "exampleSentences": [
+        "We often eat dessert after dinner.",
+        "My favorite dessert is a big slice of cake.",
+        "Ice cream is a popular dessert for kids."
+      ],
+      "category": "Food",
+      "cardImages": [
+        "images/cards/dessert.png"
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "labels": [
+      "Bench"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Bench",
+      "vietnameseMeaning": "Ghế dài; băng ghế",
+      "pronunciation": "/bɛntʃ/",
+      "phonetic": "ben-ch",
+      "exampleSentences": [
+        "There is a long bench in the park.",
+        "Children often sit on the bench to rest.",
+        "My dog likes to lie under the bench."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/bench.png"
+      ]
+    }
+  },
+  {
+    "id": "31",
+    "labels": [
+      "Cart"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Cart",
+      "vietnameseMeaning": "Xe đẩy",
+      "pronunciation": "/kɑːrt/",
+      "phonetic": "KART",
+      "exampleSentences": [
+        "I push the cart at the supermarket.",
+        "The baby sits in the shopping cart.",
+        "We put all the toys in the red cart."
+      ],
+      "category": "Vehicle",
+      "cardImages": [
+        "images/cards/cart.png"
+      ]
+    }
+  },
+  {
+    "id": "29",
+    "labels": [
+      "Cooler"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Cooler",
+      "vietnameseMeaning": "Thùng giữ nhiệt",
+      "pronunciation": "/ˈkuːlər/",
+      "phonetic": "KOO-ler",
+      "exampleSentences": [
+        "This cooler keeps our drinks cold.",
+        "We take the cooler to the beach.",
+        "Dad puts ice and juice in the cooler."
+      ],
+      "category": "Container",
+      "cardImages": [
+        "images/cards/cooler.png"
+      ]
+    }
+  },
+  {
+    "id": "32",
+    "labels": [
+      "Display Case"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Display Case",
+      "vietnameseMeaning": "Tủ trưng bày hoặc hộp trưng bày",
+      "pronunciation": "/dɪˈspleɪ keɪs/",
+      "phonetic": "dis-PLAY kays",
+      "exampleSentences": [
+        "The museum has a big display case with old coins.",
+        "I see the beautiful cakes in the bakery's display case.",
+        "My grandmother keeps her special tea cups in a display case."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/display-case.png"
+      ]
+    }
+  },
+  {
+    "id": "33",
+    "labels": [
+      "Dishwasher"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Dishwasher",
+      "vietnameseMeaning": "Máy rửa bát",
+      "pronunciation": "/ˈdɪʃwɑːʃər/",
+      "phonetic": "DISH-wah-sher",
+      "exampleSentences": [
+        "Mom puts the dirty plates in the dishwasher.",
+        "The dishwasher cleans our dishes very well.",
+        "We open the dishwasher to take out the clean cups."
+      ],
+      "category": "Appliance",
+      "cardImages": [
+        "images/cards/dishwasher.png"
+      ]
+    }
+  },
+  {
+    "id": "34",
+    "labels": [
+      "Door, Door"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Door",
+      "vietnameseMeaning": "Cửa",
+      "pronunciation": "/dɔːr/",
+      "phonetic": "DOR",
+      "exampleSentences": [
+        "The door is open.",
+        "Please close the door.",
+        "I knock on the door to enter."
+      ],
+      "category": "Building Part",
+      "cardImages": [
+        "images/cards/door.png"
+      ]
+    }
+  },
+  {
+    "id": "35",
+    "labels": [
+      "Door"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Door",
+      "vietnameseMeaning": "Cửa ra vào",
+      "pronunciation": "/dɔːr/",
+      "phonetic": "DOR",
+      "exampleSentences": [
+        "The door is green.",
+        "Please close the door quietly.",
+        "I open the door to go outside."
+      ],
+      "category": "Building Feature",
+      "cardImages": [
+        "images/cards/door.png"
+      ]
+    }
+  },
+  {
+    "id": "36",
+    "labels": [
+      "Egg"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Egg",
+      "vietnameseMeaning": "Trứng",
+      "pronunciation": "/ɛɡ/",
+      "phonetic": "EG",
+      "exampleSentences": [
+        "I eat an egg for breakfast.",
+        "A chicken lays an egg.",
+        "The egg has a yellow yolk inside."
+      ],
+      "category": "Food",
+      "cardImages": [
+        "images/cards/egg.png"
+      ]
+    }
+  },
+  {
+    "id": "37",
+    "labels": [
+      "Durian"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Durian",
+      "vietnameseMeaning": "Một loại trái cây nhiệt đới lớn, có vỏ gai nhọn và mùi rất đặc trưng, được nhiều người yêu thích.",
+      "pronunciation": "/ˈdʊəriən/",
+      "phonetic": "DOO-ree-uhn",
+      "exampleSentences": [
+        "Durian is a big, tropical fruit.",
+        "It has a very spiky skin and a strong smell.",
+        "Many people love to eat durian."
+      ],
+      "category": "Fruit",
+      "cardImages": [
+        "images/cards/durian.png"
+      ]
+    }
+  },
+  {
+    "id": "38",
+    "labels": [
+      "Fish"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Fish",
+      "vietnameseMeaning": "Cá",
+      "pronunciation": "/fɪʃ/",
+      "phonetic": "fish",
+      "exampleSentences": [
+        "A fish swims in the water.",
+        "Many fish live in the ocean.",
+        "I like to watch the colorful fish."
+      ],
+      "category": "Animal",
+      "cardImages": [
+        "images/cards/fish.png"
+      ]
+    }
+  },
+  {
+    "id": "39",
+    "labels": [
+      "Faucet"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Faucet",
+      "vietnameseMeaning": "Vòi nước",
+      "pronunciation": "/ˈfɑːsɪt/",
+      "phonetic": "FAH-sit",
+      "exampleSentences": [
+        "The faucet is in the kitchen.",
+        "Turn on the faucet to wash your hands.",
+        "Water comes out of the faucet."
+      ],
+      "category": "Household Item",
+      "cardImages": [
+        "images/cards/faucet.png"
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "labels": [
+      "Air Conditioner"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Air Conditioner",
+      "vietnameseMeaning": "Máy lạnh",
+      "pronunciation": "/ˈɛər kənˈdɪʃənər/",
+      "phonetic": "AIR kuhn-DISH-uh-ner",
+      "exampleSentences": [
+        "The air conditioner makes the room cool.",
+        "We turn on the air conditioner when it is hot.",
+        "It helps us feel comfortable in summer."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/air-conditioner.png"
+      ]
+    }
+  },
+  {
+    "id": "40",
+    "labels": [
+      "Flower"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Flower",
+      "vietnameseMeaning": "Bông hoa",
+      "pronunciation": "/ˈflaʊər/",
+      "phonetic": "FLOU-er",
+      "exampleSentences": [
+        "This flower is red and pretty.",
+        "A bee flies to the big yellow flower.",
+        "I like to smell the sweet flower."
+      ],
+      "category": "Nature",
+      "cardImages": [
+        "images/cards/flower.png"
+      ]
+    }
+  },
+  {
+    "id": "41",
+    "labels": [
+      "Fan"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Fan",
+      "vietnameseMeaning": "Quạt điện",
+      "pronunciation": "/fæn/",
+      "phonetic": "FAN",
+      "exampleSentences": [
+        "The fan blows cool air.",
+        "I turn on the fan when it is hot.",
+        "The fan helps me stay cool."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/fan.png"
+      ]
+    }
+  },
+  {
+    "id": "42",
+    "labels": [
+      "Fridge"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Fridge",
+      "vietnameseMeaning": "Tủ lạnh",
+      "pronunciation": "/frɪdʒ/",
+      "phonetic": "frij",
+      "exampleSentences": [
+        "We keep our food fresh in the fridge.",
+        "The fridge is very cold inside.",
+        "Mom puts milk and juice in the fridge."
+      ],
+      "category": "Appliance",
+      "cardImages": [
+        "images/cards/fridge.png"
+      ]
+    }
+  },
+  {
+    "id": "43",
+    "labels": [
+      "Filter"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Filter",
+      "vietnameseMeaning": "Cái lọc",
+      "pronunciation": "/ˈfɪltər/",
+      "phonetic": "FIL-ter",
+      "exampleSentences": [
+        "The coffee filter stops the grounds from going into my cup.",
+        "This water filter makes the drinking water clean and fresh.",
+        "We change the air filter in our house to keep the air good."
+      ],
+      "category": "Household Item",
+      "cardImages": [
+        "images/cards/filter.png"
+      ]
+    }
+  },
+  {
+    "id": "44",
+    "labels": [
+      "Hair Dryer"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Hair Dryer",
+      "vietnameseMeaning": "Máy sấy tóc",
+      "pronunciation": "/ˈhɛə draɪər/",
+      "phonetic": "HAIR DRY-er",
+      "exampleSentences": [
+        "I use a hair dryer to dry my wet hair.",
+        "The hair dryer blows warm air.",
+        "Mom keeps her hair dryer in the bathroom."
+      ],
+      "category": "Electronics",
+      "cardImages": [
+        "images/cards/hair-dryer.png"
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "labels": [
+      "Durian, Durian"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Durian",
+      "vietnameseMeaning": "Quả sầu riêng",
+      "pronunciation": "/ˈdʊriən/",
+      "phonetic": "DOOR-ee-uhn",
+      "exampleSentences": [
+        "A durian is a large, spiky fruit.",
+        "It has a very strong smell.",
+        "Some people think durian tastes delicious."
+      ],
+      "category": "Fruit",
+      "cardImages": [
+        "images/cards/durian.png"
+      ]
+    }
+  },
+  {
+    "id": "46",
+    "labels": [
+      "Fruit"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Fruit",
+      "vietnameseMeaning": "Trái cây",
+      "pronunciation": "/fruːt/",
+      "phonetic": "FROOT",
+      "exampleSentences": [
+        "I eat a piece of fruit every morning.",
+        "An apple is a healthy fruit.",
+        "Many fruits are sweet and delicious."
+      ],
+      "category": "Food",
+      "cardImages": [
+        "images/cards/fruit.png"
+      ]
+    }
+  },
+  {
+    "id": "47",
+    "labels": [
+      "Jar, Jar, Jar"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Jar",
+      "vietnameseMeaning": "Cái lọ, cái hũ",
+      "pronunciation": "/dʒɑːr/",
+      "phonetic": "JAR",
+      "exampleSentences": [
+        "I keep my cookies in a big jar.",
+        "The jar is made of glass.",
+        "Mom puts flowers in a pretty jar."
+      ],
+      "category": "Container",
+      "cardImages": [
+        "images/cards/jar.png"
+      ]
+    }
+  },
+  {
+    "id": "48",
+    "labels": [
+      "Iron"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Iron",
+      "vietnameseMeaning": "Bàn là (dụng cụ ủi quần áo)",
+      "pronunciation": "/ˈaɪərn/",
+      "phonetic": "EYE-urn",
+      "exampleSentences": [
+        "Mom uses the iron to make her shirt smooth.",
+        "The iron gets very hot to take out wrinkles.",
+        "We use an iron to make clothes look neat and tidy."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/iron.png"
+      ]
+    }
+  },
+  {
+    "id": "49",
+    "labels": [
+      "Jar"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Jar",
+      "vietnameseMeaning": "Cái lọ, cái hũ",
+      "pronunciation": "/dʒɑːr/",
+      "phonetic": "JAR",
+      "exampleSentences": [
+        "This jar is empty.",
+        "Mom puts cookies in a big jar.",
+        "I see a jar of honey on the shelf."
+      ],
+      "category": "Kitchenware",
+      "cardImages": [
+        "images/cards/jar.png"
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "labels": [
+      "Air Cooler"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Air Cooler",
+      "vietnameseMeaning": "Máy làm mát không khí (hoạt động bằng cách bốc hơi nước)",
+      "pronunciation": "/ɛər ˈkuːlər/",
+      "phonetic": "AIR KOO-ler",
+      "exampleSentences": [
+        "An air cooler makes the room feel cool.",
+        "My family uses an air cooler on hot days.",
+        "It blows a cool breeze around the room."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/air-cooler.png"
+      ]
+    }
+  },
+  {
+    "id": "50",
+    "labels": [
+      "Humidifier"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Humidifier",
+      "vietnameseMeaning": "Máy tạo độ ẩm / Máy phun sương",
+      "pronunciation": "/hjuːˈmɪdɪfaɪər/",
+      "phonetic": "HYOO-mid-ih-fy-er",
+      "exampleSentences": [
+        "A humidifier adds moisture to the air.",
+        "My dad puts the humidifier in my bedroom at night.",
+        "It helps me breathe better when the air is dry."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/humidifier.png"
+      ]
+    }
+  },
+  {
+    "id": "51",
+    "labels": [
+      "Jar, Jar"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Jar",
+      "vietnameseMeaning": "Cái lọ, cái hũ",
+      "pronunciation": "/dʒɑːr/",
+      "phonetic": "JAR",
+      "exampleSentences": [
+        "The cookie jar is full of yummy treats.",
+        "Mom keeps jam in a glass jar.",
+        "We use a small jar to hold pens."
+      ],
+      "category": "Container",
+      "cardImages": [
+        "images/cards/jar.png"
+      ]
+    }
+  },
+  {
+    "id": "52",
+    "labels": [
+      "Heater"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Heater",
+      "vietnameseMeaning": "Máy sưởi (thiết bị làm ấm phòng)",
+      "pronunciation": "/ˈhiːtər/",
+      "phonetic": "HEE-ter",
+      "exampleSentences": [
+        "The heater makes our room warm and cozy.",
+        "We turn on the heater when it is cold outside.",
+        "This small heater helps us stay comfortable in winter."
+      ],
+      "category": "Appliance",
+      "cardImages": [
+        "images/cards/heater.png"
+      ]
+    }
+  },
+  {
+    "id": "53",
+    "labels": [
+      "Juicer"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Juicer",
+      "vietnameseMeaning": "Máy ép trái cây",
+      "pronunciation": "/ˈdʒuːsər/",
+      "phonetic": "JOO-ser",
+      "exampleSentences": [
+        "A juicer helps us make fresh juice.",
+        "My mom uses the juicer to make orange juice.",
+        "You put fruits like apples into the juicer."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/juicer.png"
+      ]
+    }
+  },
+  {
+    "id": "54",
+    "labels": [
+      "Lamp"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Lamp",
+      "vietnameseMeaning": "Đèn",
+      "pronunciation": "/læmp/",
+      "phonetic": "LAMP",
+      "exampleSentences": [
+        "The lamp is on the table.",
+        "It helps us see in the dark.",
+        "I turn on the lamp to read my book."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/lamp.png"
+      ]
+    }
+  },
+  {
+    "id": "55",
+    "labels": [
+      "Kettle"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Kettle",
+      "vietnameseMeaning": "Ấm đun nước",
+      "pronunciation": "/ˈketl/",
+      "phonetic": "KET-uhl",
+      "exampleSentences": [
+        "This is a shiny kettle.",
+        "My mom boils water in the kettle for tea.",
+        "The kettle whistles when the water is hot."
+      ],
+      "category": "Kitchenware",
+      "cardImages": [
+        "images/cards/kettle.png"
+      ]
+    }
+  },
+  {
+    "id": "56",
+    "labels": [
+      "Laptop"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Laptop",
+      "vietnameseMeaning": "Máy tính xách tay",
+      "pronunciation": "/ˈlæp.tɒp/",
+      "phonetic": "LAP-top",
+      "exampleSentences": [
+        "I use my laptop for school work.",
+        "My dad types emails on his laptop.",
+        "The laptop helps me watch videos."
+      ],
+      "category": "Electronics",
+      "cardImages": [
+        "images/cards/laptop.png"
+      ]
+    }
+  },
+  {
+    "id": "58",
+    "labels": [
+      "Mirror"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Mirror",
+      "vietnameseMeaning": "Cái gương, tấm gương",
+      "pronunciation": "/ˈmɪrər/",
+      "phonetic": "MIR-uhr",
+      "exampleSentences": [
+        "I look in the mirror every morning.",
+        "The mirror shows my reflection.",
+        "There is a big mirror in the bathroom."
+      ],
+      "category": "Household Item",
+      "cardImages": [
+        "images/cards/mirror.png"
+      ]
+    }
+  },
+  {
+    "id": "59",
+    "labels": [
+      "Nest"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Nest",
+      "vietnameseMeaning": "Tổ chim",
+      "pronunciation": "/nɛst/",
+      "phonetic": "NEST",
+      "exampleSentences": [
+        "A bird builds a nest.",
+        "Little birds live in the nest.",
+        "The nest is high up in a tree."
+      ],
+      "category": "Nature",
+      "cardImages": [
+        "images/cards/nest.png"
+      ]
+    }
+  },
+  {
+    "id": "57",
+    "labels": [
+      "Mattress"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Mattress",
+      "vietnameseMeaning": "Nệm hoặc đệm, dùng để ngủ trên giường.",
+      "pronunciation": "/ˈmætrəs/",
+      "phonetic": "MAT-ruhs",
+      "exampleSentences": [
+        "A mattress is very soft.",
+        "We sleep on a comfortable mattress every night.",
+        "The mattress fits perfectly on the bed frame."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/mattress.png"
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "labels": [
+      "Bowl"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Bowl",
+      "vietnameseMeaning": "Cái bát",
+      "pronunciation": "/bəʊl/",
+      "phonetic": "BOHL",
+      "exampleSentences": [
+        "I eat cereal from a bowl.",
+        "The cat drinks water from its bowl.",
+        "Mom puts fruit in a big bowl."
+      ],
+      "category": "Kitchenware",
+      "cardImages": [
+        "images/cards/bowl.png"
+      ]
+    }
+  },
+  {
+    "id": "60",
+    "labels": [
+      "Meat"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Meat",
+      "vietnameseMeaning": "Thịt",
+      "pronunciation": "/miːt/",
+      "phonetic": "MEET",
+      "exampleSentences": [
+        "We eat meat for dinner.",
+        "This chicken meat is yummy.",
+        "My dog loves meat very much."
+      ],
+      "category": "Food",
+      "cardImages": [
+        "images/cards/meat.png"
+      ]
+    }
+  },
+  {
+    "id": "61",
+    "labels": [
+      "Oven"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Oven",
+      "vietnameseMeaning": "Lò nướng",
+      "pronunciation": "/ˈʌvən/",
+      "phonetic": "UV-uhn",
+      "exampleSentences": [
+        "Mom bakes yummy cookies in the oven.",
+        "The oven gets very hot when it is cooking food.",
+        "We can make a delicious pizza in the oven."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/oven.png"
+      ]
+    }
+  },
+  {
+    "id": "63",
+    "labels": [
+      "Phone"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Phone",
+      "vietnameseMeaning": "Điện thoại",
+      "pronunciation": "/foʊn/",
+      "phonetic": "fone",
+      "exampleSentences": [
+        "I talk to my friend on the phone.",
+        "My dad uses his phone to check the weather.",
+        "This small phone fits in my pocket."
+      ],
+      "category": "Electronics",
+      "cardImages": [
+        "images/cards/phone.png"
+      ]
+    }
+  },
+  {
+    "id": "62",
+    "labels": [
+      "Plant"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Plant",
+      "vietnameseMeaning": "Cây cối, thực vật",
+      "pronunciation": "/plænt/",
+      "phonetic": "PLANT",
+      "exampleSentences": [
+        "This plant has green leaves.",
+        "We water the plant every morning.",
+        "A tiny plant grows in the garden."
+      ],
+      "category": "Nature",
+      "cardImages": [
+        "images/cards/plant.png"
+      ]
+    }
+  },
+  {
+    "id": "64",
+    "labels": [
+      "Rice"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Rice",
+      "vietnameseMeaning": "Gạo, một loại ngũ cốc dùng làm thức ăn chính.",
+      "pronunciation": "/raɪs/",
+      "phonetic": "RICE",
+      "exampleSentences": [
+        "We eat rice for dinner.",
+        "Rice is a small white grain.",
+        "Many people around the world eat rice every day."
+      ],
+      "category": "Food",
+      "cardImages": [
+        "images/cards/rice.png"
+      ]
+    }
+  },
+  {
+    "id": "65",
+    "labels": [
+      "Plate"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Plate",
+      "vietnameseMeaning": "Cái đĩa (để đựng thức ăn)",
+      "pronunciation": "/pleɪt/",
+      "phonetic": "PLAYT",
+      "exampleSentences": [
+        "This is a clean plate.",
+        "I put my food on the plate.",
+        "The plate is on the table."
+      ],
+      "category": "Kitchenware",
+      "cardImages": [
+        "images/cards/plate.png"
+      ]
+    }
+  },
+  {
+    "id": "67",
+    "labels": [
+      "Robot Vacuum"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Robot Vacuum",
+      "vietnameseMeaning": "Robot hút bụi",
+      "pronunciation": "/ˈroʊbɒt ˈvækjuːm/",
+      "phonetic": "ROH-bot VAK-yoom",
+      "exampleSentences": [
+        "A robot vacuum cleans the floor by itself.",
+        "It moves around the room and picks up dirt.",
+        "My family uses a robot vacuum every day."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/robot-vacuum.png"
+      ]
+    }
+  },
+  {
+    "id": "68",
+    "labels": [
+      "Light"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Light",
+      "vietnameseMeaning": "Ánh sáng",
+      "pronunciation": "/laɪt/",
+      "phonetic": "LITE",
+      "exampleSentences": [
+        "The sun gives us light every day.",
+        "We turn on the light when it gets dark outside.",
+        "A bright light helps me see my book clearly."
+      ],
+      "category": "Illumination",
+      "cardImages": [
+        "images/cards/light.png"
+      ]
+    }
+  },
+  {
+    "id": "66",
+    "labels": [
+      "Rice Cooker"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Rice Cooker",
+      "vietnameseMeaning": "Nồi cơm điện",
+      "pronunciation": "/ˈraɪs ˌkʊkər/",
+      "phonetic": "RYS KOO-ker",
+      "exampleSentences": [
+        "We use a rice cooker to make yummy rice.",
+        "The rice cooker sits on the kitchen counter.",
+        "My mom puts water and rice in the rice cooker."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/rice-cooker.png"
+      ]
+    }
+  },
+  {
+    "id": "69",
+    "labels": [
+      "Pallet"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Pallet",
+      "vietnameseMeaning": "Tấm kê hàng",
+      "pronunciation": "/ˈpælɪt/",
+      "phonetic": "PAL-it",
+      "exampleSentences": [
+        "A pallet is a flat wooden or plastic structure.",
+        "Workers use a pallet to move many boxes at once.",
+        "The forklift lifts the heavy pallet off the ground."
+      ],
+      "category": "Logistics Equipment",
+      "cardImages": [
+        "images/cards/pallet.png"
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "labels": [
+      "Blender"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Blender",
+      "vietnameseMeaning": "Máy xay sinh tố",
+      "pronunciation": "/ˈblɛndər/",
+      "phonetic": "BLEND-er",
+      "exampleSentences": [
+        "Mom uses the blender to make a yummy smoothie.",
+        "The blender spins very fast to mix fruits.",
+        "We put milk and bananas in the blender."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/blender.png"
+      ]
+    }
+  },
+  {
+    "id": "70",
+    "labels": [
+      "Safe"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Safe",
+      "vietnameseMeaning": "Két sắt",
+      "pronunciation": "/ˈseɪf/",
+      "phonetic": "SAYF",
+      "exampleSentences": [
+        "This is a very strong safe.",
+        "My mom keeps important papers in the safe.",
+        "The safe helps to keep things secure."
+      ],
+      "category": "Household Item",
+      "cardImages": [
+        "images/cards/safe.png"
+      ]
+    }
+  },
+  {
+    "id": "72",
+    "labels": [
+      "Sausage"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Sausage",
+      "vietnameseMeaning": "Xúc xích",
+      "pronunciation": "/ˈsɔːsɪdʒ/",
+      "phonetic": "SAW-sij",
+      "exampleSentences": [
+        "I like to eat a sausage with my eggs.",
+        "The hot dog has a tasty sausage inside.",
+        "My mom cooks sausages for our picnic."
+      ],
+      "category": "Food",
+      "cardImages": [
+        "images/cards/sausage.png"
+      ]
+    }
+  },
+  {
+    "id": "71",
+    "labels": [
+      "Shelf"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Shelf",
+      "vietnameseMeaning": "Kệ, giá (để đồ)",
+      "pronunciation": "/ʃɛlf/",
+      "phonetic": "shelf",
+      "exampleSentences": [
+        "Look, there is a book on the shelf.",
+        "I put my toys on the top shelf.",
+        "This shelf holds many pictures."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/shelf.png"
+      ]
+    }
+  },
+  {
+    "id": "74",
+    "labels": [
+      "Pot"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Pot",
+      "vietnameseMeaning": "Nồi, chậu",
+      "pronunciation": "/pɒt/",
+      "phonetic": "POT",
+      "exampleSentences": [
+        "Mom cooks soup in a big pot.",
+        "The little plant is growing in a small pot.",
+        "I see a pot on the kitchen stove."
+      ],
+      "category": "Household Item",
+      "cardImages": [
+        "images/cards/pot.png"
+      ]
+    }
+  },
+  {
+    "id": "73",
+    "labels": [
+      "Scale"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Scale",
+      "vietnameseMeaning": "Cái cân",
+      "pronunciation": "/skeɪl/",
+      "phonetic": "Skayl",
+      "exampleSentences": [
+        "I use the scale to weigh my toy car.",
+        "The doctor uses a scale to check my weight.",
+        "My mom puts fruit on the kitchen scale."
+      ],
+      "category": "Measurement Device",
+      "cardImages": [
+        "images/cards/scale.png"
+      ]
+    }
+  },
+  {
+    "id": "76",
+    "labels": [
+      "Sofa"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Sofa",
+      "vietnameseMeaning": "Ghế sofa, ghế dài.",
+      "pronunciation": "/ˈsoʊfə/",
+      "phonetic": "SOH-fuh",
+      "exampleSentences": [
+        "We sit on the sofa to watch TV.",
+        "The big, comfy sofa is in the living room.",
+        "My cat loves to sleep on the sofa."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/sofa.png"
+      ]
+    }
+  },
+  {
+    "id": "75",
+    "labels": [
+      "Shelving Unit"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Shelving Unit",
+      "vietnameseMeaning": "Kệ để đồ",
+      "pronunciation": "/ˈʃɛlvɪŋ ˈjuːnɪt/",
+      "phonetic": "SHEL-ving YOO-nit",
+      "exampleSentences": [
+        "The shelving unit holds many books.",
+        "I put my toys on the top shelf of the shelving unit.",
+        "Mom organizes our craft supplies on the tall shelving unit."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/shelving-unit.png"
+      ]
+    }
+  },
+  {
+    "id": "77",
+    "labels": [
+      "Shrimp"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Shrimp",
+      "vietnameseMeaning": "Tôm",
+      "pronunciation": "/ʃrɪmp/",
+      "phonetic": "shrimp",
+      "exampleSentences": [
+        "A shrimp is a small animal that lives in the sea.",
+        "Many people like to eat shrimp because it is delicious.",
+        "Shrimp can be pink when it is cooked."
+      ],
+      "category": "Seafood",
+      "cardImages": [
+        "images/cards/shrimp.png"
+      ]
+    }
+  },
+  {
+    "id": "79",
+    "labels": [
+      "Speaker, Speaker"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Speaker",
+      "vietnameseMeaning": "Loa",
+      "pronunciation": "/ˈspiːkər/",
+      "phonetic": "SPEE-ker",
+      "exampleSentences": [
+        "A speaker makes music loud so we can hear it.",
+        "I connect my phone to the speaker to play songs.",
+        "We use this speaker to listen to stories and sounds."
+      ],
+      "category": "Electronics",
+      "cardImages": [
+        "images/cards/speaker.png"
+      ]
+    }
+  },
+  {
+    "id": "78",
+    "labels": [
+      "Speaker"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Speaker",
+      "vietnameseMeaning": "Thiết bị điện tử phát ra âm thanh, loa.",
+      "pronunciation": "/ˈspiːkər/",
+      "phonetic": "SPEE-ker",
+      "exampleSentences": [
+        "This speaker plays my favorite songs.",
+        "I can hear loud music from the speaker.",
+        "The speaker is small and easy to carry."
+      ],
+      "category": "Electronics",
+      "cardImages": [
+        "images/cards/speaker.png"
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "labels": [
+      "Bag"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Bag",
+      "vietnameseMeaning": "Túi",
+      "pronunciation": "/bæɡ/",
+      "phonetic": "BAG",
+      "exampleSentences": [
+        "I carry my lunch in my bag.",
+        "The shopping bag is full of food.",
+        "She has a small bag for her toys."
+      ],
+      "category": "Everyday Object",
+      "cardImages": [
+        "images/cards/bag.png"
+      ]
+    }
+  },
+  {
+    "id": "80",
+    "labels": [
+      "Steamer"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Steamer",
+      "vietnameseMeaning": "Nồi hoặc dụng cụ dùng để hấp thức ăn bằng hơi nước.",
+      "pronunciation": "/ˈstiːmər/",
+      "phonetic": "STEE-mur",
+      "exampleSentences": [
+        "Mom uses the steamer to cook vegetables.",
+        "The steamer makes food soft and hot with steam.",
+        "You can make healthy meals with a steamer."
+      ],
+      "category": "Kitchenware",
+      "cardImages": [
+        "images/cards/steamer.png"
+      ]
+    }
+  },
+  {
+    "id": "81",
+    "labels": [
+      "Stool"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Stool",
+      "vietnameseMeaning": "Ghế đẩu (ghế không có lưng tựa)",
+      "pronunciation": "/stuːl/",
+      "phonetic": "STOOL",
+      "exampleSentences": [
+        "This is a small stool.",
+        "I can sit on the stool to reach the book.",
+        "The stool is made of wood."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/stool.png"
+      ]
+    }
+  },
+  {
+    "id": "82",
+    "labels": [
+      "Stove"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Stove",
+      "vietnameseMeaning": "Bếp (dùng để nấu ăn, sưởi ấm)",
+      "pronunciation": "/stəʊv/",
+      "phonetic": "STOHV",
+      "exampleSentences": [
+        "A stove helps us cook yummy food.",
+        "My mom uses the stove to make dinner.",
+        "Be careful, the stove can get hot."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/stove.png"
+      ]
+    }
+  },
+  {
+    "id": "83",
+    "labels": [
+      "Squid"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Squid",
+      "vietnameseMeaning": "Con mực",
+      "pronunciation": "/ˈskwɪd/",
+      "phonetic": "SKWID",
+      "exampleSentences": [
+        "A squid lives in the ocean.",
+        "It has many arms to swim and catch food.",
+        "Some squids can change their color very fast."
+      ],
+      "category": "Sea Animal",
+      "cardImages": [
+        "images/cards/squid.png"
+      ]
+    }
+  },
+  {
+    "id": "85",
+    "labels": [
+      "Tree"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Tree",
+      "vietnameseMeaning": "Cây",
+      "pronunciation": "/triː/",
+      "phonetic": "TREE",
+      "exampleSentences": [
+        "A tree is very tall.",
+        "Birds make their nests in a tree.",
+        "We can sit under a big tree for shade."
+      ],
+      "category": "Nature",
+      "cardImages": [
+        "images/cards/tree.png"
+      ]
+    }
+  },
+  {
+    "id": "84",
+    "labels": [
+      "Table"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Table",
+      "vietnameseMeaning": "Cái bàn",
+      "pronunciation": "/ˈteɪbl/",
+      "phonetic": "TAY-bul",
+      "exampleSentences": [
+        "We eat dinner at the table.",
+        "The book is on the table.",
+        "This table has four legs."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/table.png"
+      ]
+    }
+  },
+  {
+    "id": "86",
+    "labels": [
+      "Tv"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "TV",
+      "vietnameseMeaning": "Tivi",
+      "pronunciation": "/ˌtiːˈviː/",
+      "phonetic": "TEE-vee",
+      "exampleSentences": [
+        "We watch cartoons on the TV.",
+        "The TV is in the living room.",
+        "My mom turns on the TV to watch the news."
+      ],
+      "category": "Electronics",
+      "cardImages": [
+        "images/cards/tv.png"
+      ]
+    }
+  },
+  {
+    "id": "87",
+    "labels": [
+      "Truck"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Truck",
+      "vietnameseMeaning": "Xe tải",
+      "pronunciation": "/trʌk/",
+      "phonetic": "TRUK",
+      "exampleSentences": [
+        "The big truck carries many boxes.",
+        "My toy truck is red.",
+        "A fire truck has a loud siren."
+      ],
+      "category": "Vehicles",
+      "cardImages": [
+        "images/cards/truck.png"
+      ]
+    }
+  },
+  {
+    "id": "88",
+    "labels": [
+      "Toilet"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Toilet",
+      "vietnameseMeaning": "Bồn cầu",
+      "pronunciation": "/ˈtɔɪlɪt/",
+      "phonetic": "TOY-lit",
+      "exampleSentences": [
+        "The toilet is in the bathroom.",
+        "Please flush the toilet after you use it.",
+        "We use the toilet to go to the bathroom."
+      ],
+      "category": "Bathroom Fixture",
+      "cardImages": [
+        "images/cards/toilet.png"
+      ]
+    }
+  },
+  {
+    "id": "89",
+    "labels": [
+      "Vacuum Cleaner"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Vacuum Cleaner",
+      "vietnameseMeaning": "Máy hút bụi",
+      "pronunciation": "/ˈvækjuːm ˈkliːnər/",
+      "phonetic": "VAK-yoom KLEE-ner",
+      "exampleSentences": [
+        "My mom uses the vacuum cleaner to clean the floor.",
+        "The vacuum cleaner helps to make the house tidy.",
+        "It makes a loud noise when it works."
+      ],
+      "category": "Home Appliances",
+      "cardImages": [
+        "images/cards/vacuum-cleaner.png"
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "labels": [
+      "Bottle"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Bottle",
+      "vietnameseMeaning": "Cái chai",
+      "pronunciation": "/ˈbɒtl/",
+      "phonetic": "BOT-uhl",
+      "exampleSentences": [
+        "I drink water from a bottle.",
+        "The baby has a milk bottle.",
+        "Mom fills the bottle with juice."
+      ],
+      "category": "Container",
+      "cardImages": [
+        "images/cards/bottle.png"
+      ]
+    }
+  },
+  {
+    "id": "90",
+    "labels": [
+      "Vacuum"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Vacuum",
+      "vietnameseMeaning": "Máy hút bụi",
+      "pronunciation": "/ˈvækjuːm/",
+      "phonetic": "VAK-yoom",
+      "exampleSentences": [
+        "Mom uses the vacuum to clean the rug.",
+        "The vacuum makes a loud noise.",
+        "We keep the vacuum in the closet."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/vacuum.png"
+      ]
+    }
+  },
+  {
+    "id": "91",
+    "labels": [
+      "Tray"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Tray",
+      "vietnameseMeaning": "Cái khay",
+      "pronunciation": "/treɪ/",
+      "phonetic": "TRAY",
+      "exampleSentences": [
+        "Mom carries snacks on a big tray.",
+        "The tray holds many colorful cups.",
+        "We use a tray to bring food to the table."
+      ],
+      "category": "Kitchenware",
+      "cardImages": [
+        "images/cards/tray.png"
+      ]
+    }
+  },
+  {
+    "id": "92",
+    "labels": [
+      "Wardrobe"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Wardrobe",
+      "vietnameseMeaning": "Tủ quần áo",
+      "pronunciation": "/ˈwɔːrdrəʊb/",
+      "phonetic": "WARD-robe",
+      "exampleSentences": [
+        "I keep all my clothes in the wardrobe.",
+        "The wardrobe has two big doors.",
+        "My mom helps me organize my shirts in the wardrobe."
+      ],
+      "category": "Furniture",
+      "cardImages": [
+        "images/cards/wardrobe.png"
+      ]
+    }
+  },
+  {
+    "id": "93",
+    "labels": [
+      "Vase"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Vase",
+      "vietnameseMeaning": "Bình hoa, lọ hoa",
+      "pronunciation": "/veɪs/",
+      "phonetic": "VAYS",
+      "exampleSentences": [
+        "This vase holds beautiful flowers.",
+        "Mom puts the vase on the table.",
+        "The vase is made of clear glass."
+      ],
+      "category": "Home Decor",
+      "cardImages": [
+        "images/cards/vase.png"
+      ]
+    }
+  },
+  {
+    "id": "94",
+    "labels": [
+      "Watch"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Watch",
+      "vietnameseMeaning": "Đồng hồ đeo tay",
+      "pronunciation": "/ˈwɒtʃ/",
+      "phonetic": "WOTCH",
+      "exampleSentences": [
+        "I wear a watch on my wrist.",
+        "My watch tells me the time.",
+        "This watch has a big, round face."
+      ],
+      "category": "Accessories",
+      "cardImages": [
+        "images/cards/watch.png"
+      ]
+    }
+  },
+  {
+    "id": "95",
+    "labels": [
+      "Wheel"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Wheel",
+      "vietnameseMeaning": "Bánh xe",
+      "pronunciation": "/wiːl/",
+      "phonetic": "WEEL",
+      "exampleSentences": [
+        "A car has four wheels.",
+        "The bicycle wheel spins very fast.",
+        "The toy truck has small wheels."
+      ],
+      "category": "Parts",
+      "cardImages": [
+        "images/cards/wheel.png"
+      ]
+    }
+  },
+  {
+    "id": "96",
+    "labels": [
+      "Water Filter"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Water Filter",
+      "vietnameseMeaning": "Máy lọc nước",
+      "pronunciation": "/ˈwɔːtər ˈfɪltər/",
+      "phonetic": "WAW-ter FIL-ter",
+      "exampleSentences": [
+        "This water filter makes our drinking water clean.",
+        "We have a water filter in our kitchen.",
+        "The water from the filter tastes fresh and good."
+      ],
+      "category": "Kitchen Appliance",
+      "cardImages": [
+        "images/cards/water-filter.png"
+      ]
+    }
+  },
+  {
+    "id": "97",
+    "labels": [
+      "Water Dispenser"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Water Dispenser",
+      "vietnameseMeaning": "Cây nước uống",
+      "pronunciation": "/ˈwɔːtər dɪˈspɛnsər/",
+      "phonetic": "WAH-ter dih-SPEN-ser",
+      "exampleSentences": [
+        "We drink fresh water from the water dispenser.",
+        "The water dispenser can give us hot or cold water.",
+        "Mom fills her cup at the water dispenser every morning."
+      ],
+      "category": "Appliance",
+      "cardImages": [
+        "images/cards/water-dispenser.png"
+      ]
+    }
+  },
+  {
+    "id": "98",
+    "labels": [
+      "Wheel, Wheel"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Wheel",
+      "vietnameseMeaning": "Bánh xe",
+      "pronunciation": "/ˈwiːl/",
+      "phonetic": "WEEL",
+      "exampleSentences": [
+        "A car has four wheels.",
+        "The bike has two big wheels.",
+        "We can spin the wheel."
+      ],
+      "category": "Vehicle Parts",
+      "cardImages": [
+        "images/cards/wheel.png"
+      ]
+    }
+  },
+  {
+    "id": "99",
+    "labels": [
+      "Water Heater"
+    ],
+    "defaultCollectedAt": "2025-11-29",
+    "base": {
+      "word": "Water Heater",
+      "vietnameseMeaning": "Bình nóng lạnh",
+      "pronunciation": "/ˈwɔːtər ˈhiːtər/",
+      "phonetic": "WAH-ter HEE-ter",
+      "exampleSentences": [
+        "The water heater makes hot water for us.",
+        "It helps us take a warm shower.",
+        "My mom turns on the water heater in the morning."
+      ],
+      "category": "Home Appliance",
+      "cardImages": [
+        "images/cards/water-heater.png"
+      ]
+    }
+  }
+]
