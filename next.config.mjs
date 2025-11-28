@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  basePath: "/virulen",
+  assetPrefix: "/virulen/",
   typescript: {
     ignoreBuildErrors: true,
   },
