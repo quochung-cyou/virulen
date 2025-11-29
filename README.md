@@ -15,13 +15,13 @@ Instead of memorizing words from Western textbooks, learners build a **collectio
 Label Tool Build Around Edge Impulse: https://github.com/quochung-cyou/label-tool-edgeimpulse
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" alt="Video Title" width="600">
+  <a href="https://www.youtube.com/watch?v=c5tncPer468">
+    <img src="https://img.youtube.com/vi/c5tncPer468/maxresdefault.jpg" alt="Virulen / VietLens Demo" width="640">
   </a>
 </p>
 
 <p align="center">
-  <em>Click the image to watch the demo on YouTube.</em>
+  <em>Watch the Virulen / VietLens demo on YouTube</em>
 </p>
 ---
 
