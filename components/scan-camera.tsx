@@ -12,15 +12,15 @@ import { createWordCardInstance } from "@/lib/card-types"
 interface ScanCameraProps {
   onWordFound?: (word: WordCard) => void
   onCurrentFrameCards?: (items: { card: WordCard; confidence: number; imageDataUrl?: string }[]) => void
+  mode?: "realtime" | "capture"
 }
 
-export function ScanCamera({ onWordFound, onCurrentFrameCards }: ScanCameraProps) {
+export function ScanCamera({ onWordFound, onCurrentFrameCards, mode = "realtime" }: ScanCameraProps) {
   const DEBUG_BOUNDING_BOXES = true
   const [isScanning, setIsScanning] = useState(false)
   const [scanError, setScanError] = useState<string | null>(null)
   const [detections, setDetections] = useState<Detection[]>([])
   const [modelInputSize, setModelInputSize] = useState<{ width: number; height: number } | null>(null)
-  const [autoScanEnabled] = useState(true)
 
   const videoRef = useRef<HTMLVideoElement | null>(null)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
@@ -87,7 +87,7 @@ export function ScanCamera({ onWordFound, onCurrentFrameCards }: ScanCameraProps
             const odBlock = props.thresholds[0]
             if (odBlock && typeof odBlock.id !== "undefined") {
               try {
-                ;(classifier as any).setThreshold({ id: odBlock.id, min_score: 0.1 })
+                ;(classifier as any).setThreshold({ id: odBlock.id, min_score: 0.35 })
                 console.log("[Scan] setThreshold for block", odBlock.id, "min_score=0.1")
               } catch (err) {
                 console.warn("[Scan] setThreshold failed", err)
@@ -280,14 +280,14 @@ export function ScanCamera({ onWordFound, onCurrentFrameCards }: ScanCameraProps
   }, [modelInputSize, processDetectionsForCards, applyNms])
 
   useEffect(() => {
-    if (!autoScanEnabled) return
+    if (mode !== "realtime") return
 
     let cancelled = false
 
     const loop = async () => {
       while (!cancelled) {
         await runScan()
-        await new Promise((resolve) => setTimeout(resolve, 400))
+        await new Promise((resolve) => setTimeout(resolve, 120))
       }
     }
 
@@ -297,7 +297,7 @@ export function ScanCamera({ onWordFound, onCurrentFrameCards }: ScanCameraProps
     return () => {
       cancelled = true
     }
-  }, [autoScanEnabled, runScan])
+  }, [mode, runScan])
 
   return (
     <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-br from-muted to-muted/50">
@@ -370,7 +370,14 @@ export function ScanCamera({ onWordFound, onCurrentFrameCards }: ScanCameraProps
 
       {/* Shutter Button (now just a reset) */}
       <div className="absolute bottom-6 left-0 right-0 flex items-center justify-center">
-        {detections.length > 0 ? (
+        {mode === "capture" ? (
+          <button
+            onClick={() => runScan()}
+            className="w-14 h-14 rounded-full glass flex items-center justify-center shadow-lg active:scale-95 transition-transform"
+          >
+            <div className="w-6 h-6 rounded-full bg-foreground/60" />
+          </button>
+        ) : detections.length > 0 ? (
           <button
             onClick={() => setDetections([])}
             className="w-14 h-14 rounded-full glass flex items-center justify-center shadow-lg active:scale-95 transition-transform"

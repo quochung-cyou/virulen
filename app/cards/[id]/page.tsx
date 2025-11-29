@@ -6,6 +6,7 @@ export function generateStaticParams() {
   return cards.map((card) => ({ id: card.id }))
 }
 
-export default function CardDetailPage({ params }: { params: { id: string } }) {
-  return <CardDetailClient id={params.id} />
+export default async function CardDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  return <CardDetailClient id={id} />
 }

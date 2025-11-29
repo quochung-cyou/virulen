@@ -7,6 +7,7 @@ import { FloatingDock } from "@/components/floating-dock"
 import { ScanCamera } from "@/components/scan-camera"
 import { addCard, getStats, updateStats } from "@/lib/storage"
 import { AnimatePresence, motion } from "framer-motion"
+import { withBasePath } from "@/lib/asset-path"
 
 export default function ScanPage() {
   const router = useRouter()
@@ -16,6 +17,7 @@ export default function ScanPage() {
   const [caughtCard, setCaughtCard] = useState<import("@/lib/word-data").WordCard | null>(null)
   const [caughtImageUrl, setCaughtImageUrl] = useState<string | undefined>(undefined)
   const [isAnimatingCatch, setIsAnimatingCatch] = useState(false)
+  const [scanMode, setScanMode] = useState<"realtime" | "capture">("realtime")
 
   // Track time spent on the scan screen and add it to stats.totalTime
   useEffect(() => {
@@ -63,7 +65,30 @@ export default function ScanPage() {
           </p>
         </div>
 
-        <ScanCamera onCurrentFrameCards={setCurrentItems} />
+        <div className="flex items-center justify-center gap-2 mb-3 text-[11px]">
+          <button
+            onClick={() => setScanMode("realtime")}
+            className={`px-3 py-1.5 rounded-full border transition-colors ${
+              scanMode === "realtime"
+                ? "bg-primary text-primary-foreground border-primary"
+                : "bg-background text-foreground border-border"
+            }`}
+          >
+            Real-time
+          </button>
+          <button
+            onClick={() => setScanMode("capture")}
+            className={`px-3 py-1.5 rounded-full border transition-colors ${
+              scanMode === "capture"
+                ? "bg-primary text-primary-foreground border-primary"
+                : "bg-background text-foreground border-border"
+            }`}
+          >
+            Capture only
+          </button>
+        </div>
+
+        <ScanCamera mode={scanMode} onCurrentFrameCards={setCurrentItems} />
 
         {/* Currently detected objects (no history) */}
         {currentItems.length > 0 && (
@@ -78,6 +103,16 @@ export default function ScanPage() {
                     : level === "medium"
                     ? "bg-amber-100 text-amber-700"
                     : "bg-rose-100 text-rose-700"
+
+                const dictionaryImage = card.cardImages?.[0]
+                const listThumbSrc =
+                  imageDataUrl ||
+                  card.capturedImages?.[0] ||
+                  (dictionaryImage
+                    ? withBasePath(dictionaryImage)
+                    : withBasePath(
+                        `/placeholder.svg?height=40&width=40&query=${encodeURIComponent(card.word)}`,
+                      ))
 
                 return (
                 <button
@@ -97,14 +132,7 @@ export default function ScanPage() {
                 >
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-lg bg-muted overflow-hidden flex-shrink-0">
-                      <img
-                        src={
-                          card.capturedImages?.[0] ||
-                          `/placeholder.svg?height=40&width=40&query=${encodeURIComponent(card.word)}`
-                        }
-                        alt={card.word}
-                        className="w-full h-full object-cover"
-                      />
+                      <img src={listThumbSrc} alt={card.word} className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-foreground leading-tight">{card.word}</p>
@@ -178,7 +206,11 @@ export default function ScanPage() {
                   src={
                     caughtImageUrl ||
                     caughtCard.capturedImages?.[0] ||
-                    `/placeholder.svg?height=80&width=80&query=${encodeURIComponent(caughtCard.word)}`
+                    (caughtCard.cardImages && caughtCard.cardImages.length > 0
+                      ? withBasePath(caughtCard.cardImages[0])
+                      : withBasePath(
+                          `/placeholder.svg?height=80&width=80&query=${encodeURIComponent(caughtCard.word)}`,
+                        ))
                   }
                   alt={caughtCard.word}
                   className="w-full h-full object-cover"
