@@ -3,6 +3,7 @@
 import type React from "react"
 import { Volume2 } from "lucide-react"
 import type { WordCard } from "@/lib/word-data"
+import { withBasePath } from "@/lib/asset-path"
 
 interface WordCardItemProps {
   card: WordCard
@@ -16,6 +17,19 @@ export function WordCardItem({ card, onClick, isNew }: WordCardItemProps) {
     const utterance = new SpeechSynthesisUtterance(card.word)
     utterance.lang = "en-US"
     speechSynthesis.speak(utterance)
+  }
+
+  const dictionaryImage = card.cardImages?.[0]
+  let imageSrc: string | undefined = card.capturedImages[0]
+
+  if (!imageSrc && dictionaryImage) {
+    imageSrc = withBasePath(dictionaryImage)
+  }
+
+  if (!imageSrc) {
+    imageSrc = withBasePath(
+      `/placeholder.svg?height=140&width=140&query=${encodeURIComponent(card.word) || "vocabulary card"}`,
+    )
   }
 
   const categoryColors: Record<string, string> = {
@@ -42,10 +56,7 @@ export function WordCardItem({ card, onClick, isNew }: WordCardItemProps) {
     >
       <div className="aspect-square bg-muted overflow-hidden">
         <img
-          src={
-            card.capturedImages[0] ||
-            `/placeholder.svg?height=140&width=140&query=${encodeURIComponent(card.word) || "vocabulary card"}`
-          }
+          src={imageSrc}
           alt={card.word}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />

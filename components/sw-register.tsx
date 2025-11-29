@@ -8,8 +8,10 @@ export function SwRegister() {
     if (!("serviceWorker" in navigator)) return
 
     // Register the custom service worker for PWA capabilities
+    const basePath = window.location.pathname.startsWith("/virulen") ? "/virulen" : ""
+
     navigator.serviceWorker
-      .register("/sw.js")
+      .register(`${basePath}/sw.js`)
       .catch((err) => {
         console.error("Service worker registration failed", err)
       })

@@ -3,6 +3,11 @@
 let loadPromise: Promise<void> | null = null
 let classifierInstance: any | null = null
 
+function getBasePath() {
+  if (typeof window === "undefined") return ""
+  return window.location.pathname.startsWith("/virulen") ? "/virulen" : ""
+}
+
 function loadScript(src: string): Promise<void> {
   if (typeof document === "undefined") return Promise.reject(new Error("Document is not available"))
 
@@ -34,8 +39,10 @@ async function ensureLoaded() {
   if (loadPromise) return loadPromise
 
   loadPromise = (async () => {
-    await loadScript("/edge-impulse/edge-impulse-standalone.js")
-    await loadScript("/edge-impulse/run-impulse.js")
+    const basePath = getBasePath()
+
+    await loadScript(`${basePath}/edge-impulse/edge-impulse-standalone.js`)
+    await loadScript(`${basePath}/edge-impulse/run-impulse.js`)
   })()
 
   return loadPromise

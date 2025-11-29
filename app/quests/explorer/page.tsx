@@ -11,7 +11,7 @@ function buildActiveQuestCards(): GalleryCard[] {
   const withImages = all.filter((entry) => entry.base.cardImages && entry.base.cardImages.length > 0)
 
   const shuffled = [...withImages].sort(() => Math.random() - 0.5)
-  const selected = shuffled.slice(0, 20)
+  const selected = shuffled.slice(0, 10)
 
   return selected.map((entry) => {
     const imagePath = entry.base.cardImages?.[0] ?? "placeholder.svg"

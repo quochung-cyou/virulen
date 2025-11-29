@@ -10,6 +10,7 @@ import type { WordCard } from "@/lib/word-data"
 import { getCardDefinitionById } from "@/lib/card-dictionary"
 import { createWordCardInstance } from "@/lib/card-types"
 import { Button } from "@/components/ui/button"
+import { withBasePath } from "@/lib/asset-path"
 
 interface CardDetailClientProps {
   id: string
@@ -22,6 +23,9 @@ export default function CardDetailClient({ id }: CardDetailClientProps) {
   const [isSpeaking, setIsSpeaking] = useState(false)
   const [practiceTarget, setPracticeTarget] = useState<string | null>(null)
   const [practiceLabel, setPracticeLabel] = useState<string>("Word")
+
+  const primaryImage =
+    card?.capturedImages[0] || (card?.cardImages && card.cardImages.length > 0 ? card.cardImages[0] : undefined)
 
   useEffect(() => {
     const collected = getCollectedCards()
@@ -64,8 +68,13 @@ export default function CardDetailClient({ id }: CardDetailClientProps) {
       <div className="fixed inset-0 -z-10">
         <img
           src={
-            card.capturedImages[0] ||
-            `/placeholder.svg?height=800&width=400&query=${encodeURIComponent(card.word)} object`
+            primaryImage
+              ? primaryImage.startsWith("http") || primaryImage.startsWith("data:")
+                ? primaryImage
+                : withBasePath(primaryImage)
+              : withBasePath(
+                  `/placeholder.svg?height=800&width=400&query=${encodeURIComponent(card.word)} object`,
+                )
           }
           alt=""
           className="w-full h-full object-cover opacity-10 blur-3xl scale-110"
@@ -211,9 +220,11 @@ export default function CardDetailClient({ id }: CardDetailClientProps) {
                 <img
                   src={
                     image ||
-                    `/placeholder.svg?height=150&width=150&query=${encodeURIComponent(
-                      card.word,
-                    )} photo ${index + 1}`
+                    withBasePath(
+                      `/placeholder.svg?height=150&width=150&query=${encodeURIComponent(
+                        card.word,
+                      )} photo ${index + 1}`,
+                    )
                   }
                   alt={`${card.word} - Image ${index + 1}`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
