@@ -14,8 +14,7 @@ Instead of memorizing words from Western textbooks, learners build a **collectio
 
 Label Tool Build Around Edge Impulse: https://github.com/quochung-cyou/label-tool-edgeimpulse
 
-Youtube Video: https://www.youtube.com/watch?v=c5tncPer468
-
+[![YouTube Video c5tncPer468](https://img.youtube.com/vi/c5tncPer468/maxresdefault.jpg)](https://www.youtube.com/watch?v=c5tncPer468)
 ---
 
 ## 1. Why This Exists 
