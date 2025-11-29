@@ -13,7 +13,7 @@ export function getVoskModel() {
     if (!VoskGlobal) {
       throw new Error("window.Vosk is not available. Ensure the Vosk CDN script is loaded.")
     }
-    modelPromise = VoskGlobal.createModel("/vosk/model-en-small.tar.gz")
+    modelPromise = VoskGlobal.createModel("/virulen/vosk/model-en-small.tar.gz")
   }
   return modelPromise
 }

@@ -1,8 +1,8 @@
 "use client"
 
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import { Mic, Square, Play, RotateCcw, Volume2 } from "lucide-react"
-import { createVoskRecognizer } from "@/lib/vosk-client"
+import { createVoskRecognizer, getVoskModel } from "@/lib/vosk-client"
 
 interface AudioRecorderProps {
   targetText: string
@@ -27,6 +27,43 @@ export function AudioRecorder({ targetText, label }: AudioRecorderProps) {
   const [partialText, setPartialText] = useState("")
   const [fluencyScore, setFluencyScore] = useState<number | null>(null)
 
+  useEffect(() => {
+    if (typeof window === "undefined") return
+
+    let cancelled = false
+    let attempts = 0
+    const maxAttempts = 50 // e.g. ~10s if interval is 200ms
+
+    const tick = () => {
+      if (cancelled) return
+      attempts += 1
+
+      const hasVosk = typeof (window as any).Vosk !== "undefined"
+      if (hasVosk) {
+        getVoskModel()
+          .then(() => {
+            console.log("[AudioRecorder] Vosk model preloaded")
+          })
+          .catch((e) => {
+            console.error("[AudioRecorder] Failed to preload Vosk model", e)
+          })
+        return
+      }
+
+      if (attempts < maxAttempts) {
+        setTimeout(tick, 200)
+      } else {
+        console.warn("[AudioRecorder] Vosk script not detected after waiting; will load on first record click")
+      }
+    }
+
+    setTimeout(tick, 0)
+
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
   const computeFluencyScore = (target: string, recognized: string): number => {
     const normalize = (s: string) =>
       s
@@ -48,7 +85,9 @@ export function AudioRecorder({ targetText, label }: AudioRecorderProps) {
 
   const startRecording = async () => {
     try {
+      console.log("[AudioRecorder] startRecording: begin")
       setIsPreparing(true)
+      console.log("[AudioRecorder] requesting getUserMedia...")
       const stream = await navigator.mediaDevices.getUserMedia({
         video: false,
         audio: {
@@ -57,6 +96,10 @@ export function AudioRecorder({ targetText, label }: AudioRecorderProps) {
           channelCount: 1,
           sampleRate: 16000,
         },
+      })
+      console.log("[AudioRecorder] getUserMedia resolved", {
+        audioTracks: stream.getAudioTracks().length,
+        videoTracks: stream.getVideoTracks().length,
       })
       streamRef.current = stream
       const mediaRecorder = new MediaRecorder(stream)
@@ -78,7 +121,9 @@ export function AudioRecorder({ targetText, label }: AudioRecorderProps) {
 
       if (!recognizerRef.current) {
         try {
+          console.log("[AudioRecorder] creating Vosk recognizer...")
           const recognizer = await createVoskRecognizer()
+          console.log("[AudioRecorder] Vosk recognizer created")
           recognizer.on("result", (message: any) => {
             const text = message?.result?.text ?? ""
             setRecognizedText(text)
@@ -103,7 +148,16 @@ export function AudioRecorder({ targetText, label }: AudioRecorderProps) {
         }
       }
 
+      if (!recognizerRef.current) {
+        stream.getTracks().forEach((track) => track.stop())
+        streamRef.current = null
+        setIsPreparing(false)
+        alert("Speech recognition model is not available right now. Please check your connection and reload the page.")
+        return
+      }
+
       const audioContext = new AudioContext()
+      console.log("[AudioRecorder] AudioContext created", { sampleRate: audioContext.sampleRate })
       const source = audioContext.createMediaStreamSource(stream)
       const processor = audioContext.createScriptProcessor(4096, 1, 1)
       processor.onaudioprocess = (event) => {
@@ -121,7 +175,9 @@ export function AudioRecorder({ targetText, label }: AudioRecorderProps) {
       sourceRef.current = source
       processorRef.current = processor
 
+      console.log("[AudioRecorder] starting MediaRecorder...")
       mediaRecorder.start()
+      console.log("[AudioRecorder] MediaRecorder started")
       setIsRecording(true)
       setIsPreparing(false)
       setFeedback("idle")
@@ -129,7 +185,7 @@ export function AudioRecorder({ targetText, label }: AudioRecorderProps) {
       setPartialText("")
       setFluencyScore(null)
     } catch (error) {
-      console.error("Error accessing microphone:", error)
+      console.error("[AudioRecorder] Error in startRecording:", error)
       alert("Unable to access microphone. Please check permissions.")
       setIsRecording(false)
       setIsPreparing(false)
