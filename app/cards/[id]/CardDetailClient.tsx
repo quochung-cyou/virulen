@@ -25,7 +25,8 @@ export default function CardDetailClient({ id }: CardDetailClientProps) {
   const [practiceLabel, setPracticeLabel] = useState<string>("Word")
 
   const primaryImage =
-    card?.capturedImages[0] || (card?.cardImages && card.cardImages.length > 0 ? card.cardImages[0] : undefined)
+    (card?.capturedImages && card.capturedImages.length > 0 ? card.capturedImages[0] : undefined) ||
+    (card?.cardImages && card.cardImages.length > 0 ? card.cardImages[0] : undefined)
 
   useEffect(() => {
     const collected = getCollectedCards()
@@ -215,7 +216,7 @@ export default function CardDetailClient({ id }: CardDetailClientProps) {
         <div className="bg-card border border-border rounded-3xl p-5 mb-6 shadow-soft">
           <h3 className="font-semibold text-foreground mb-4">Captured Images</h3>
           <div className="grid grid-cols-2 gap-3">
-            {card.capturedImages.map((image, index) => (
+            {(card.capturedImages ?? []).map((image, index) => (
               <div key={index} className="aspect-square bg-muted rounded-2xl overflow-hidden shadow-soft">
                 <img
                   src={
