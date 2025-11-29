@@ -4,7 +4,12 @@ Virulen (VietLens) is a **PWA English-learning app** that lets learners in Vietn
 
 Instead of memorizing words from Western textbooks, learners build a **collection of cards** from the everyday objects around them – plastic stools, rice cookers, street food, school furniture – the real Vietnam.
 
-> **Tagline:** *Local context, global language – learn English from the world you actually live in.*
+
+**Novelty:**
+- New dataset for Vietnam-specific objects (**10k data**) in unconstrained environment
+- The app running fully offline in mid-end devices via webapp (which allow both IOS/Android/and any devices with web browser) to run. Benchmark showcase it interface with **200-300ms latency**.
+
+
 
 
 Label Tool Build Around Edge Impulse: https://github.com/quochung-cyou/label-tool-edgeimpulse
