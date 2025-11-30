@@ -4,8 +4,8 @@ export const dynamic = "force-static"
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "English Learning App",
-    short_name: "EngLearn",
+    name: "Vietnam Rural Len",
+    short_name: "Virulen",
     description: "A Progressive Web App for learning English with object scanning.",
     start_url: "/virulen/",
     display: "standalone",

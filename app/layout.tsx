@@ -12,10 +12,9 @@ const _merriweather = Merriweather({
 })
 
 export const metadata: Metadata = {
-  title: "VocabScan - Learn English by Scanning",
+  title: "Virulen - Learn English by Scanning",
   description: "Learn English vocabulary by scanning objects around you",
-  manifest: "/manifest.json",
-    generator: 'v0.app'
+  manifest: "/manifest.json"
 }
 
 export const viewport: Viewport = {
