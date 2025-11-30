@@ -14,15 +14,10 @@ Instead of memorizing words from Western textbooks, learners build a **collectio
 
 Label Tool Build Around Edge Impulse: https://github.com/quochung-cyou/label-tool-edgeimpulse
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=c5tncPer468">
-    <img src="https://img.youtube.com/vi/c5tncPer468/maxresdefault.jpg" alt="Virulen / VietLens Demo" width="640">
-  </a>
-</p>
+[![Virulen - Vietnamese Rural Len](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcNjNDKWfrvQ)](https://www.youtube.com/watch?v=cNjNDKWfrvQ)
 
-<p align="center">
-  <em>Watch the Virulen / VietLens demo on YouTube</em>
-</p>
+
+Backup Link Youtube: https://www.youtube.com/watch?v=cNjNDKWfrvQ
 ---
 
 ## 1. Why This Exists 
